@@ -1,0 +1,114 @@
+/* 
+#11c76f
+#2a8250
+#eff0e8
+#426dff
+*/
+
+body {
+  background-color: #11c76f;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  width: 10rem;
+  color: black;
+}
+
+td,
+th {
+  text-align: center;
+  border: 3px solid black;
+  padding: 0.5rem;
+}
+
+table tr:nth-child(even) {
+  background-color: #eff0e8;
+}
+
+table tr:nth-child(odd) {
+  background-color: #bbb;
+}
+
+table tr:hover {
+  cursor: pointer;
+  background-color: #426dff;
+}
+
+th {
+  color: #eff0e8;
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: #2a8250;
+}
+
+#paisMaior {
+  color: #eff0e8;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: #426dff;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#paisMaior::before,
+#paisMaior::after {
+  content: "🏆";
+}
+
+/* estilizando as tabs */
+#web {
+  overflow: hidden;
+  border: 1px solid #35362e;
+  background-color: #2a8250;
+}
+
+#web a {
+  color: #eff0e8;
+  float: left;
+  border: none;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+#web a:hover {
+  background-color: #eff0e8;
+  color: #35362e;
+}
+
+.conteudo {
+  overflow: hidden;
+  display: none;
+  background-color: #eff0e8;
+  padding: 6px 12px;
+  border: 1px solid #35362e;
+  border-top: none;
+  height: 300px;
+}
+
+.conteudo:target {
+  display: block;
+}
+
+form {
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #2a8250;
+}
+
+form input {
+  width: 80%;
+  margin: 1rem 0;
+}
