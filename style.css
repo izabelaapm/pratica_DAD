@@ -113,7 +113,7 @@ form input {
   margin: 1rem 0;
 }
 
-li{
+#lista-cores li{
   width:200px;font-size: 2rem; 
   margin:0 auto; 
   padding: 16px 32px; 
